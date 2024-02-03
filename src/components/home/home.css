@@ -1,0 +1,190 @@
+
+.sec1{
+    background-color: #7d9c3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 95%;
+    align-self: center;
+    text-align: center;
+    height: 400px;
+    margin-left: 3%;
+    padding-top: 20px;
+    
+}
+
+.image p{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 250;
+}
+.btn1{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border: solid white;
+    color: white;
+    background-color:#7d9c3f ;
+    margin-bottom: 50px;
+}
+.info{
+    max-width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.para{
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.head1{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.featured_products{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.products{
+    font-size: 15px;
+    font-weight: 50;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.about{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items at the top of the flex container */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    padding-right: 20px;
+    max-width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Align children in a column layout */
+}
+
+.images {
+    width: 100%;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.img-4 {
+    margin: 0 auto; /* Center the image horizontally within the card */
+}
+
+/* Additional styling for other elements in the card */
+h2, p {
+    margin: 10px 0;
+}
+
+.contactDetails{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+.contactform {
+    text-align: center;
+    font: 500;
+    font-size: 40px;
+    
+}
+
+.contactform p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-send{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border: solid white;
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    border: solid rgb(162, 162, 162);
+    border-width: 1px;
+}
+
+
+button:hover {
+    background-color: #7d9c3f;
+}
+
+.details-others{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.last{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer{
+    padding: 20px;
+    background-color: #3a3838;
+    text-align: center;
+    color: azure;
+}
+p{
+    padding-top: 20px;
+}
+.mob{
+    color:#7d9c3f
+}
+.products button{
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
