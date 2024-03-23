@@ -27,7 +27,7 @@ function App() {
   });
 
   return (
-    // <Route>
+    
           <Auth0Provider
           domain="dev-50ck150zubvjchf2.us.auth0.com"
           clientId="yuVNbZlL2YQbIiCG8cqZ9pnPIuskf36W"
@@ -36,8 +36,6 @@ function App() {
           }}>
 
           <Navbar/>
-          {/* <LoginButton/>
-          <LogoutButton/> */}
           <Home />
           
           </Auth0Provider>
