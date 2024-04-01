@@ -34,11 +34,13 @@ function App() {
           authorizationParams={{
             redirect_uri: window.location.origin
           }}>
-
+          {/* <UserAuthContextProvider> */}
           <Navbar/>
           {/* <LoginButton/>
           <LogoutButton/> */}
           <Home />
+          My App
+          {/* </UserAuthContextProvider> */}
           </Auth0Provider>
 
     

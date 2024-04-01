@@ -8,6 +8,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 
 
+
 const Home = () => {
 
     const {isAuthenticated} = useAuth0();
@@ -31,18 +32,17 @@ const Home = () => {
 The platform simplifies access to and use of this valuable material, supporting wise judgment and smart studies in various sectors.
         </p>
         </section>
-        <section className='products'>
+        <section className='featured_products'>
             <p className='featured_products'>
                 FEATURED PRODUCTS
             </p>
+
             {isAuthenticated ?(
                 <li><a href='#'><button className='free' >Download Free Version</button></a></li>
             ):(
                 <h2 style={{ paddingTop: '20px' }}>Please Login first...!!!</h2>
               )}
-            {/* <div className='products'>
-                <a href='#'><button className='paid' >Get Paid Version</button></a>
-            </div> */}
+            
         </section>
         <section className='products'>
             <p className='about'>
@@ -75,15 +75,7 @@ The platform simplifies access to and use of this valuable material, supporting 
             </p>
         <div class="contactform">
             <p>𝕘𝕖𝕠𝕔𝕚𝕥𝕪𝕕𝕒𝕥𝕒𝕓𝕒𝕤𝕖@𝕘𝕞𝕒𝕚𝕝.𝕔𝕠𝕞</p>
-        {/* <p><b>Drop us a line</b></p> */}
-        {/* <form id="contactForm">
-            <div className='alert'>Your message sent.</div>
-            <input type="text" id="name" name="name" value='Name' required/>
-            <input type="email" id="email" name="email" value='Email' required/>
-            <input type="text" id="subject" name="subject" value='Subject' required/>
-            <textarea id="message" name="message" value='Message' rows="8" required></textarea>
-            <button className='btn-send' type="submit">—— Send ——</button>
-        </form> */}
+      
         </div>
         <div className='details-others'>
             <p><b>www.GeoCityDatabase.com</b></p>

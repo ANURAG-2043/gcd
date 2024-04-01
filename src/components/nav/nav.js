@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 import Login from "../login";
 
 
+
 function Navb() {
     const [showLogin, setShowLogin] = useState(false);
 
@@ -40,14 +41,15 @@ function Navb() {
         <Nav className="me-auto" style={{ alignSelf: 'center', marginLeft: 'auto', marginRight: 'auto', gap: '25px' }}>
         <Nav.Link href="#home" className="nav-link-custom">Home</Nav.Link>
         <NavDropdown title="Products" id="collapsible-nav-dropdown" className="dropdown-custom">
-            <NavDropdown.Item href="#free" className="dropdown-item-custom">Free Version</NavDropdown.Item>
+            <NavDropdown.Item href="#free" src=".products" className="dropdown-item-custom">Free Version</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#paid" className="dropdown-item-custom">Paid Version</NavDropdown.Item>
+            <NavDropdown.Item href="#paid" src=".products" className="dropdown-item-custom">Paid Version</NavDropdown.Item>
         </NavDropdown>
         </Nav>
           <Nav>
-          <Button onClick={toggleLogin}>Login</Button> 
-            <Nav.Link eventKey={2} href="#memes" className="nav-link-custom">Register</Nav.Link>
+          <Button onClick={toggleLogin} href="#/login">Login</Button> 
+          <Button onClick={toggleLogin} style={{ marginLeft: 10 }} href="#/register">Register</Button> 
+            {/* <Nav.Link eventKey={2} href="#memes" className="nav-link-custom"> Register</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
