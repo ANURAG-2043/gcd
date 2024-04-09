@@ -10,12 +10,12 @@ function Dropdown({ isOpen, toggleDropdown }) {
     return (
         <div>
             <button onClick={toggleDropdown}>—— Products ——</button>
-            {isOpen && (
-                <div>
-                    <li><a href='#'>— Free Edition —</a></li>
-                    <li><a href='#'>— Paid Edition —</a></li>
-                </div>
-            )}
+            // {isOpen && (
+            //     <div>
+            //         <li><a href='#'>— Free Edition —</a></li>
+            //         <li><a href='#'>— Paid Edition —</a></li>
+            //     </div>
+            // )}
         </div>
     );
 }
